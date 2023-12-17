@@ -1,0 +1,653 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@400;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap');
+body{
+    font-family: 'Almarai', sans-serif;
+    background-color: rgb(54, 53, 53);
+    direction: rtl;
+}
+/*start head */
+.head{
+    background-image: url('../img/header.jpg');
+    background-size: cover ;
+}
+.head-opcity{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .6);
+}
+.navbar img{
+    height: 80px;
+    width: 220px;
+}
+.dropdown .lang{
+    border: 1px solid white;
+    border-radius: 2px;
+    width: 100px;
+}
+.log {
+    background-color: #e50914;
+    color: white;
+    border: #e50914;
+    padding: 10px 20px;
+}
+.btn:hover{
+    background-color: #e50914;
+}
+.header-content{
+  color: #fff;
+}
+.header-content h1{
+    width: 45%;
+    font-weight: bolder;
+    margin-right: 28%;
+    margin-top: 10%;
+    font-size: 4rem;
+    line-height: 100px;
+}
+.header-content :nth-child(2){
+    font-size: 1.47rem;
+    line-height: 35px;
+}
+.header-content :nth-child(3){
+    font-size: 1.1rem;
+    word-spacing: 3px;
+}
+.form{
+    margin-right: 30%;
+}
+.form .form-control{
+    height: 70px;
+    width: 475px;
+    border-radius: 1px;
+    border: #e50914;
+    margin-left: 1.5px;
+}
+.form button{
+    border: #e50914;
+    width: 130px;
+    height: 70px;
+    border-radius: 1px;
+    background-color: #e50914;
+    font-size: 1.7rem;
+}
+.form button:hover{
+    background-color: #ff0a17;
+}
+/*end head */
+
+/*start enjoy */
+.enjoy ,.downlad ,.show,.Children{
+    color: #fff;
+    text-align: right;
+    padding-bottom: 60px;
+    margin-top: 7px;
+}
+.enjoy h2 ,.downlad h2,.show h2 ,.Children h2{
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 80px;
+    padding-top: 70px;
+}
+.enjoy p ,.show p {
+    font-size: 1.9rem;
+    font-weight: 300;
+    line-height: 60px;
+    padding-top: 50px;
+}
+.enjoy video {
+    display: inline-block;
+    margin-top: -140px;
+    margin-right: 75px;
+}
+.enjoy img{
+    margin-top: -230px;
+}
+/*end enjoy */
+
+/*start downlad*/
+.downlad p{
+    font-size: 1.5rem;
+    font-weight: 200;
+    line-height: 60px;
+    padding-top: 50px;
+    width: 80%;
+    margin-left: 130px;
+}
+.downlad .mobile img{
+    width: 70%;
+}
+/*end downlad */
+
+/*start show */
+.show img{
+    margin-top: -200px;
+    width: 90%;
+
+}
+.show video{
+    width: 65%;
+    margin-right: 102px;
+    display: inline-block;
+    margin-top: -140px;
+}
+/*end show */
+
+/*start children*/
+.Children p{
+    font-size: 1.7rem;
+    font-weight: 200;
+    line-height: 40px;
+    padding-top: 50px;
+}
+.Children img{
+    width: 90%;
+}
+.stranger{
+    padding: 20px 30px 10px 10px;
+    border-radius: 10px;
+    border: solid 1px white;
+    margin-top: 5px;
+    top: 240px;
+    right: 55px;
+}
+.stranger .box img{
+    height: 80px;
+    width: 65px;
+}
+.stranger .st h3 ,.stranger .st h4{
+    font-size: 1.3rem;
+    text-align: left;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.st h4{
+    color: blue;
+}
+/*end children*/
+
+/*start question*/
+.question{
+    margin-top:7px;
+    color: #fff;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.question .question-head h2{
+    font-size: 3rem;
+    font-weight: 800;
+    text-align: center;
+    padding-bottom: 70px;
+}
+.question5{
+    width:65%;
+    margin-right: 18%;
+}
+.accordion-button:not(.collapsed){
+    background-color: #303030;
+    box-shadow: none;
+    color: #fff;
+}
+.accordion-button{
+    background-color: #303030;
+    color: #fff;
+    border: none;
+    box-shadow: none;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.accordion-item{
+    margin-bottom: 10px;
+    padding-top: 1px;
+    background-color: transparent;
+    border: none;
+    background-color:#303030;
+}
+.accordion-item i{
+    font-size: 3rem;
+    color: #ffffff;
+    font-weight: 100;
+    margin-top: 10;
+}
+.accordion-item h2 button.accordion-button{
+    font-size: 1.5rem;
+
+}
+.accordion-collapse .accordion-body{
+    margin-top: 2px;
+    background-color: #303030;
+}
+.accordion-collapse{
+    background-color: #303030;
+}
+.accordion-body p{
+    font-size: 1.4rem;
+    line-height: 30px;
+    margin-bottom: 5px;
+    margin-top: 1px;
+}
+.accordion-body p{
+    font-size: 1.5rem;
+}
+
+.accordion-button::after {
+  display: none;
+}
+.accordion-button:not(.collapsed)::after {
+    display: none;
+}
+.question .form{
+    margin-right: 27%;
+}
+/*end question*/
+
+/*start footer*/
+.footer{
+    background-color: black;
+    margin-top: 7px;
+
+    text-align: right;
+    line-height: 30px;
+}
+.cal{
+    margin-right: 3%;
+}
+.cal a{
+    text-decoration: none;
+    color: rgb(117, 116, 116);
+}
+.cal a:hover{
+    text-decoration: underline;
+}
+.footer  li a{
+    list-style: none;
+    text-decoration: none;
+    color: rgb(117, 116, 116);
+    font-size:.7rem;
+}
+.footer  li a:hover{
+    text-decoration:underline;
+}
+.footer ul{
+    list-style: none;
+}
+.footer p{
+    color: rgb(117, 116, 116);
+    margin-right: 2%;
+    font-size: .7rem;
+}
+.footer .dropdown{
+    color: rgb(117, 116, 116);
+    margin-left: 89%;
+}
+.footer .dropdown button{
+    color: rgb(117, 116, 116);
+    border: rgb(117, 116, 116) solid 2px;
+}
+/*end footer*/
+/*/////////////////////////////////////////////////////////////////////*/
+/*start sign*/
+.signin{
+    width: 450px;
+    padding: 50px;
+    background-color: rgba(0, 0, 0, .68);
+    margin-right: 35%;
+    height: 660px;
+}
+.signin h2{
+    color: #fff;
+    text-align: right;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+.signin .form-floating input{
+    border-color: #333333;
+    color: #fff;
+    background-color: #333333;
+    margin-bottom: 20px;
+}
+.signin label{
+    color: rgb(151, 149, 149);
+    text-align: right;
+    font-size: .9rem;
+}
+.signin .btn{
+    background-color: #e50914;
+    color: #fff;
+    border-color: #e50914;
+    width: 100%;
+    height: 48px;
+    margin-top: 30px;
+}
+.form-check{
+    margin-top: 20px;
+    margin-bottom: 110px;
+}
+.signin .form-check label{
+    color: rgb(157, 155, 155);
+    text-align: right;
+    font-weight: 200;
+}
+.form-check-input{
+    background-color: rgb(157, 155, 155);
+
+}
+.form-check-input:checked {
+    background-color: rgb(157, 155, 155);
+    border-color: #ffffff;
+    color: #fff;
+}
+.form-check .row a{
+    text-decoration: none;
+    color: rgb(157, 155, 155);
+}
+.form-check .row a:hover{
+    text-decoration: underline;
+}
+.signin p{
+    color: rgb(157, 155, 155);
+    text-align: right;
+
+}
+.signin p a{
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+}
+
+.signin .ropot {
+    font-size: .83rem;
+}
+.signin .ropot a{
+    color: rgb(63, 63, 250);
+}
+/*end sign*/
+/*/////////////////////////////////////////////////////////////////////*/
+/*start headl (login help)*/
+.headl{
+    background-image: url('../img/login-the-crown_2-1500x1000.jpg');
+    
+}
+.headl .head-opcity{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.025);
+}
+.headl .login{
+    background-color: #f3f3f3;
+    height: 500px;
+}
+.headl h2 {
+    font-size: 1.5rem;
+    color: #000;
+    font-weight: 200;
+    margin-top: 1px;
+}
+.headl p{
+    font-size: 1rem;
+    color: #000;
+}
+.login li{
+    text-align: right;
+    
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    background-color: #0080ff;
+}
+.nav-link{
+    color: #0080ff;
+}
+.nav-link:focus, .nav-link:hover{
+    color: #0080ff;
+}
+.tab-content p{
+    line-height: 20px;
+    padding-top: 1px;
+    font-size: .8rem;
+}
+.login .form-floating input{
+    border-radius: 2px;
+    border-color: #c5c5c5;
+    height: 50px;
+}
+.login .btn{
+ margin-top: 5px;
+ background-color: #e50914;
+}
+.login .form-floating input.sent{
+    background-color: #0080ff;
+}
+.login .form-floating input.sent:hover{
+    background-color: #3399ff;
+}
+.tab-pane a{
+    text-decoration: none;
+    font-size: .9rem;
+}
+.tab-pane a:hover{
+    text-decoration: underline;
+    color: #0080ff;
+}
+.login .ropot{
+    color: rgb(177, 176, 176);
+    width: 100%;
+    font-size: .9rem;
+}
+.tab-pane .input-group button.btn-outline-secondary{
+    background-color: #FFF;
+    width: 30%;
+    border: #333333;
+    color: #000;
+    height: 50px;
+}
+.input-group:not(.has-validation)>.dropdown-toggle:nth-last-child(n+3), .input-group:not(.has-validation)>.form-floating:not(:last-child)>.form-control, .input-group:not(.has-validation)>.form-floating:not(:last-child)>.form-select, .input-group:not(.has-validation)>:not(:last-child):not(.dropdown-toggle):not(.dropdown-menu):not(.form-floating) {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    margin-top: 0px;
+    border: #333 solid 1px;
+}
+.input-group>.form-floating:not(:first-child)>.form-control, .input-group>.form-floating:not(:first-child)>.form-select, .input-group>:not(:first-child):not(.dropdown-menu):not(.form-floating):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback){
+    background-color: #fff;
+    border: #333333 solid 1px;
+}
+/*end headl*/
+/*start sign up*/
+
+.signup .navbar{
+    border-top: solid 1px #d6d4d4;
+    border-bottom: solid 1px #d6d4d4;
+}
+.signup .navbar .log{
+    color: #000;
+}
+.signup-content input{
+    border-radius: 2%;
+}
+.signup .footer{
+    background-color: #f3f3f3;
+}
+.signup-content{
+    margin-right: 37%;
+}
+.signup .btn{
+    background-color: #e50914;
+    width: 100%;
+    height: 60px;
+    border: #e50914;
+
+}
+.signup-content .form-check-input {
+    background-color: #fff;
+}
+.signup-content .form-check {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/*end sign up*/
+@media (max-width: 576px) {
+    .navbar img{
+        height: 40px;
+        width: 110px;
+    }
+    .dropdown .lang{
+        width: 70px;
+        font-size: .5rem;
+    }
+    .log{
+        padding: 5px;
+        font-size: .5rem;
+    }
+    .header-content h1{
+        width: 100%;
+        font-weight: auto;
+        margin-right: auto;
+        margin-top: 6%;
+        font-size: 1.5rem;
+        line-height: 35px;
+    }
+    .header-content :nth-child(2){
+        font-size: 1rem;
+        line-height: 20px;
+        margin-top: 0%;
+    }
+    .header-content :nth-child(3){
+        font-size: 1rem;
+        word-spacing: 3px;
+    }
+    .form{
+        margin-right: auto;
+    }
+    .form .form-control{
+        height: 40px;
+        width: 250px;
+        border-radius: 1px;
+        border: #e50914;
+        margin-right: 30px;
+    }
+    .form button{
+        width: 60px;
+        height: 40px;
+    }
+    .enjoy ,.downlad ,.show,.Children{
+        text-align: center;
+        padding-bottom: 62px;
+        margin-top: 10px;
+    }
+    .enjoy{
+        padding-bottom: 70%;
+    }
+    .enjoy h2 ,.downlad h2,.show h2 ,.Children h2{
+        font-weight: 200;
+        font-size: 1.5rem;
+        line-height: 35px;
+        padding-top: 10px;
+    }
+    .enjoy p ,.show p {
+        font-size: .8rem;
+        font-weight: 100;
+        line-height: 25px;
+        padding-top: 10px;
+    }
+    .enjoy video {
+        margin-top: 40px;
+        margin-right: 10px;
+        height: 200px;
+        width: 310px;
+    }
+    .enjoy img{
+        margin-top: 5px;
+        height: 250px;
+        width: 370px;
+    }
+    .downlad p{
+        font-size: .8rem;
+        font-weight: 100;
+        line-height: 30px;
+        padding-top: 10px;
+        width: 100%;
+        margin-left: 1px;
+    }
+    .downlad .mobile img{
+        width: 70%;
+    }
+    .downlad .mobile{
+        margin-top: 50px;
+    }
+    .stranger{
+        margin-top: -80px;
+        margin-left: 30px;
+    }
+ 
+    .downlad .content{
+        margin-top: 100px;
+    }
+    .show{
+        padding-bottom: 70%;
+        border: #0080ff solid 2px;
+    }
+    .show img{
+        margin-top: 1px;
+        width: 80%;
+    }
+    .show video{
+        width: 45%;
+        margin-right: 1px;
+        display: inline-block;
+        margin-top: 25px;
+    }
+
+    .Children p{
+        font-size: .8rem;
+        font-weight: 100;
+        line-height: 20px;
+        padding-top: 15px;
+    }
+    .Children img{
+        width: 90%;
+        margin-top: 40px;
+    }
+    .question .question-head h2{
+        font-size: 2rem;
+        font-weight: 200;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .question5{
+        width:100%;
+        margin-right: 0%;
+    }
+    .accordion-item h2 button.accordion-button{
+        font-size: 1rem;
+    }
+    .accordion-body p{
+        font-size: 1rem;
+        line-height: 30px;
+        margin-bottom: 5px;
+        margin-top: 1px;
+    }
+    .accordion-body p{
+        font-size: 1rem;
+    }
+    .question .form{
+        margin-right: 0%;
+        font-size: .5rem;
+    }
+    .footer .dropdown{
+        margin-left: 0%;
+    }
+
+    .signin{
+        width: 450px;
+        padding: 30px;
+        background-color: rgba(0, 0, 0, .68);
+        margin-right: 0%;
+        height: 660px;
+    }
+    .signup-content{
+        margin-right: 1%;
+    }
+}
